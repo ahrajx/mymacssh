@@ -32,8 +32,8 @@ jobs:
         mode: ngrok
       env:
         # You can find this token here: https://dashboard.ngrok.com/auth/your-authtoken
-        NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
+        NGROK_TOKEN: 1x4e64Lytp0eMPaXSS4RJDOzgvk_4a4gLavugw53creuv894Y
         # ngrok server region [us, eu, au, ap, sa, jp, in] (optional, default: us)
         NGROK_REGION: us
         # This password you will use when authorizing via SSH
-        SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
+        SSH_PASSWORD: ahraj
