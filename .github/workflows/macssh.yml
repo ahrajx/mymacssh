@@ -27,7 +27,7 @@ jobs:
     - name: Start SSH via ngrok
       continue-on-error: true
       timeout-minutes: 350
-      uses: mxschmitt/action-tmate@v3
+      uses: ahrajx/ssh3actions@main
       with:
         mode: ngrok
       env:
